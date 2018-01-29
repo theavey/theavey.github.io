@@ -24,6 +24,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theavey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: whizsix
 github_username:  theavey
+repository: "theavey/theavey.github.io"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
 
 # Build settings
 markdown: kramdown
