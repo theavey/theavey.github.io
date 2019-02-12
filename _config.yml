@@ -39,7 +39,10 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
+
+include: ["_pages", "_posts"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
